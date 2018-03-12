@@ -18,7 +18,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         print("git commit test")
-        view.backgroundColor = UIColor.yellow
+        view.backgroundColor = UIColor.black
     }
 
     override func didReceiveMemoryWarning() {
