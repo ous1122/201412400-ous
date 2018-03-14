@@ -33,6 +33,10 @@ var a = 1
         }
         else if a == 3{
             view.backgroundColor = UIColor.gray
+            a += 1
+        }
+        else if a == 4{
+            view.backgroundColor = UIColor.cyan
             a = 1
         }
     }
