@@ -52,6 +52,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="lbNum" destination="Tde-Uq-aa3" id="p5X-yg-BZm"/>
                         <outlet property="result" destination="Pb1-V3-cPC" id="MN7-O0-1Hp"/>
                         <outlet property="setNum" destination="uld-u6-6H6" id="UDl-h8-thk"/>
                     </connections>
