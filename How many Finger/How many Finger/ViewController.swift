@@ -27,6 +27,8 @@ class ViewController: UIViewController, UITextFieldDelegate {
         view.endEditing(true)
         setNum.backgroundColor = UIColor.green
     }
+    
+    
     @IBAction func guess(_ sender: UIButton) {
         //랜덤 숫자 생성하기
         let number = arc4random() % 6
@@ -51,6 +53,8 @@ class ViewController: UIViewController, UITextFieldDelegate {
         func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         setNum.resignFirstResponder()
             return true
+            
+            
             
             }
         }
