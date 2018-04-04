@@ -9,10 +9,13 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
     @IBOutlet weak var imagego: UIImageView!
-    var a = 1;
-    var direction = 1; // direction이 1이면 증가 0이면 감소 구분
     @IBOutlet weak var count: UILabel!
+    var a = 1; //a 선언해줌
+    var direction = 1; // direction이 1이면 증가 0이면 감소 구분
+    var myTimer = Timer()
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,7 +29,10 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     @IBAction func change(_ sender: UIButton) {
-        //버튼을 누르면 다음 이미지를 호출
+        //버튼을 누르면 다음 이미지를 호출과 타이머 실행
+        
+        
+        
         if a == 1{
             imagego.image = UIImage(named: "frame2.png")
             count.text = "2"

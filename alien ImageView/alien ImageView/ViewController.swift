@@ -15,7 +15,7 @@ var a = 1
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        //앱 시작시 첫번째 이미지 로드한다.
+        //첫번째 이미지 로드한다.
         myimage.image = UIImage(named: "frame1.png")
     }
 
