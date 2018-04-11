@@ -15,7 +15,7 @@ var a = 1
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        //첫번째 이미지 로드한다.
+        //이미지
         myimage.image = UIImage(named: "frame1.png")
     }
 
@@ -25,7 +25,7 @@ var a = 1
     }
     
     @IBAction func change(_ sender: UIButton) {
-    //버튼을 누르면 다음 이미지를 호출
+    //버튼 호출
         if a == 1{
             myimage.image = UIImage(named: "frame2.png")
             a += 1
@@ -47,8 +47,9 @@ var a = 1
             myimage.image = UIImage(named: "frame1.png")
             a = 1
         }
-    }
+        
     
+    }
 
 }
 
